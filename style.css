@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family:'Montserrat',sans-serif ;
+}
+.container{
+    widht: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Hero Section*/
+.hero{
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+/*End Hero Section*/
