@@ -17,7 +17,7 @@
 .sidebar nav{
     padding: 80px;
 }
-.sidebarnav li{
+.sidebar nav li{
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
@@ -25,7 +25,7 @@
 
 }
 
-.sidebarnav li a {
+.sidebar nav li a {
    text-decoration: none;
    color: black;
 }
@@ -47,6 +47,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 
 .devInfo{
     font-size: 16px;
@@ -101,9 +102,7 @@
     color: rgb(45, 45, 141);
 }
 
-.devPic img{
-    width: 261px;   
-}
+
 
 .iletişimform{
     padding: 0 34px;
@@ -134,6 +133,14 @@
    margin: 0 4 0px;
 }
 
+.loginform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 100px;
+    
+}
+
+
 #emailHelp{
     font-size: 10px;
     color: black;
@@ -153,10 +160,7 @@ margin: 3px 0;
 .istanbulItem{
     margin: 20px;
     font-family: 'Fira Sans', sans-serif;
-}
-
-.istanbulContainer{
-    margin: 88px;
+    
 }
 
 h1{
@@ -168,7 +172,12 @@ p{
     font-family: 'Source Code Pro', monospace;
 }
 
+h2{
+    font-family: 'Fira Sans', sans-serif; 
+}
+
 .istanbul{
+   
     margin: 0 88px;
 }
 
@@ -233,9 +242,9 @@ p{
         font-size: 10px;
     }
 
-   .devPic{
+   /*.devPic{
     display: none;
-   } 
+   } */
 
    .özgeçmiş, .istanbulContainer, .iletişimform{
     margin: 50px;
